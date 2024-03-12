@@ -224,6 +224,15 @@ export default function Sidebar() {
             </ListItemButton>
           </NavLink>
 
+          <NavLink to="/admin/resort-list" style={{ textDecoration: 'none' }}>
+            <ListItemButton>
+              <LuggageIcon />
+              <ListItemContent>
+                <Typography level="title-sm">Report balance</Typography>
+              </ListItemContent>
+            </ListItemButton>
+          </NavLink>
+
         </List>
       </Box>
       <Divider />
